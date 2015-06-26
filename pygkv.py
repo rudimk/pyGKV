@@ -18,3 +18,7 @@ def get(db, key):
 def get_version(db, version, key):
 	vv = db.get_version(version, key)
 	return vv
+
+
+def all(db):
+	return db.all()
