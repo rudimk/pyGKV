@@ -1,5 +1,5 @@
 # pyGKV
-Experimental Python bindings for gkv.
+Experimental Python bindings for gkv. [![Join the chat at https://gitter.im/rudimk/pyGKV](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rudimk/pyGKV?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [Gkv](https://github.com/ybur-yug/gkv) happens to be a neat key-value store using Git. pyGKV is an experimental Python library for using gkv from within your Python modules.
 
