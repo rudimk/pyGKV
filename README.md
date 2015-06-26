@@ -36,4 +36,15 @@ db.set("apples", 12)
 db.set("oranges", 13)
 db.get("apples")
 db.all()
+a = db.all()
+a[0]["apples"]
+# 12
 ```
+
+## What's next?
+
+I really like the idea of using Git as a KV. So I'm going to work on this. No, really.
+
+- Better exception handling.
+- PyPI package.
+- Bindings for Javascript, maybe Julia(irrelevant here, but worth bragging about.)
