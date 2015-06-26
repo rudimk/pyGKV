@@ -9,11 +9,12 @@ Nothing special, for now. pyGKV uses the [Rython](https://github.com/mjpizz/ryth
 
 ## Getting started
 
-- Clone this repo, and install dependencies.
+- Clone this repo, and install dependencies. Also make sure you've got gkv installed.
 
 ```bash
 git clone https://github.com/rudimk/pyGKV.git
 pip install -r requirements.txt
+gem install gkv
 ```
 
 - Import the library into your namespace.
