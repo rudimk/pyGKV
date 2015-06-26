@@ -1,6 +1,6 @@
 import rython
 
-def initialize():
+def init_gkv():
 	ctx = rython.RubyContext(requires=["rubygems", "gkv"])
 	db = ctx("Gkv::Database.new")
 	return db
