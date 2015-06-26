@@ -9,26 +9,26 @@ Nothing special, for now. pyGKV uses the [Rython](https://github.com/mjpizz/ryth
 
 ## Getting started
 
-1. Clone this repo, and install dependencies.
+- Clone this repo, and install dependencies.
 
 ```bash
 git clone https://github.com/rudimk/pyGKV.git
 pip install -r requirements.txt
 ```
 
-2. Import the library into your namespace.
+- Import the library into your namespace.
 
 ```python
 import pygkv
 ```
 
-3. Initialize a gkv store.
+- Initialize a gkv store.
 
 ```python
 db = pygkv.init_gkv()
 ```
 
-4. Now you're all set! 
+- Now you're all set! 
 
 ```python
 db.set("apples", 12)
