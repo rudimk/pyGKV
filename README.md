@@ -3,9 +3,18 @@ Experimental Python bindings for gkv.
 
 [Gkv](https://github.com/ybur-yug/gkv) happens to be a neat key-value store using Git. pyGKV is an experimental Python library for using gkv from within your Python modules.
 
+## Internals
+
+Nothing special, for now. pyGKV uses the [Rython](https://github.com/mjpizz/rython) library to create an XML-RPC interface to a Ruby interpreter. It also marshalls Ruby datatypes to Python types, and vice versa. Neat stuff, eh?
+
 ## Getting started
 
-1. Clone this repo. 
+1. Clone this repo, and install dependencies.
+
+```bash
+git clone https://github.com/rudimk/pyGKV.git
+pip install -r requirements.txt
+```
 
 2. Import the library into your namespace.
 
